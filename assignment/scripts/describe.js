@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
+// we make a varioable called name and set it to Dane as a string
+// if the name is Mary in value and type, 'Hi Mary' will be console logged.
+// if the name is not Mary, 'How do you do' will be console logged
 //
 //
 //
 //
 // OUTCOME:
-//
+// 'How do you do' is logged
 
 // CODE:
 /*
@@ -59,12 +59,13 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
+// We make a variable called secret
+// We make a variable called code and set it to 123 as a number
+// If it is 123 in value and type, then the variable secret is console logged as 'super' and  variable code equals 246
 //
+// If code is greater than 250, then the variable secret is cosole logged as 'duper'
 // OUTCOME:
-//
+// 'super' is logged
 
 // CODE:
 /*
@@ -89,12 +90,15 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true a bolean
+// We make a variable called age and set it to the number 34
+// We make a variable called zip and set it to the number 55407
+// If the variable isStudent is true and also the variable zip is greater than the number 8000, then 'You're a student on the West Coast!' will be console logged
+// if the variable isStudent is false or the variable age is less than 30 then 'What are your hobbies' will be console logged
+// If the variable isStudent is true (only) then 'Welcome to Prime' will be console logged
+// Otherwise for variable is Student false and variable age is is greater than 29 then 'How aabout the weather' will be consoled
 // OUTCOME:
-//
+// 'Welcome to Prime' is logged
 
 // CODE:
 /*
@@ -155,17 +159,21 @@ if (number >= 2) {
 
 // CODE:
 /*
+//Fix - colorOne = 'blue'
+  ----  colorTwo =  'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //Fix - colorTwo ='purple'
 }
+  
 */
 
-// ------------------------------------------------------------ //
-// ------------------------------------------------------------ //
+//------------------------------------------------------ //
+//------------------------------------------------------------ //
 
 // 5.
 // DESCRIPTION:
@@ -176,14 +184,15 @@ if (mix === true) {
 // CODE:
 /*
 let temp = 40;
+//Fix - let time = 4
 const time = 4;
-
+//Fix - (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
-// ------------------------------------------------------------ //
+// --------------------------------------------------- //
 // ------------------------------------------------------------ //
 
 // 6.
@@ -196,10 +205,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// fix - if(age >= minAge)
 if(minAge <= age) {
+//Fix console.log('enter')
   console.log('no entry');
 } else {
+ //Fix - console.log('no entry')
   console.log('enter');
 }
 */
